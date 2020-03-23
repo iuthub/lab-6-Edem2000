@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    width: 600px;
+    width: 800px;
     margin: 1em auto;
     background-color: white;
     border: 10px #D8C858 solid;
@@ -23,4 +23,27 @@ h1, h2 {
 input[type="submit"] {
     font-size: 2em;
     width: 100%;
+    padding: 0px;
+}
+
+input[type=text], input[type=password], input[type=radio], select{
+    margin: 5px;
+    padding:3px;
+}
+legend{
+    font-size: 14pt;
+}
+.error {
+    color: red;
+    font-weight: bold;
+}
+dd.thankyou{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:3px;
+    font-size: 12pt;
+}
+dt.thankyou{
+    font-weight: bold;
+
 }
